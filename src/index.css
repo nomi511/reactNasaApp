@@ -15,6 +15,10 @@ code {
 }
 
 
+
+  /*  -------------     navbar styles below   -------------- */
+
+
 .nav 
 {
   width: 100%;
@@ -36,9 +40,6 @@ code {
   font-size: x-large;
 }
 
-.logo {
-
-}
 
 .links ul {
   display: flex;
@@ -60,3 +61,116 @@ code {
   text-decoration: none;
   color: azure;
 }
+
+/*  -------------     navbar styles above  -------------- */
+
+
+
+
+
+/*  -------------     home styles below  -------------- */
+
+
+
+/*  -------------     banner  -------------- */
+
+.banner 
+{
+  width: 100%;
+  height: 88vh;
+  background: url(./img/earth.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.bannerCenter 
+{
+  position: absolute;
+  width: 60%;
+  height: 35%;
+  top: 30%;
+  left: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0, 0.5);
+  
+  color: azure;
+  text-align: center;
+  
+}
+
+.blogo
+{
+  color: skyblue;
+}
+
+
+
+.bannerCenter p {
+  margin-top: 40px;
+  width: 70%;
+  margin-left: 15%;
+} 
+
+
+
+
+
+/*  -------------     sections    -------------- */
+
+
+.sectionDesc
+{
+  background-color: rgb(23, 24, 24);
+  color: azure;
+}
+
+.btn {
+
+  border: none;
+  width: 100px;
+  height: 50px;
+  background-color: azure;
+  color: black;
+
+}
+
+.podDesc, .roverDesc, .eventsDesc 
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  height: 100vh;
+  border-bottom: 5px solid rgb(20, 20, 20);
+}
+
+
+.podpara, .podpic, .roverpara, .roverpic, .eventpara, .eventpic
+{
+  width: 40%;
+}
+
+img {
+
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.roverpic, .podpara, .eventpara {
+  margin-left: 5%;
+}
+
+.podpic, .eventpic, .roverpara
+{
+  margin-right: 5%;
+}
+
+
+
+
+
+
+/*  -------------     footer styles below    -------------- */
