@@ -14,7 +14,7 @@ const Home = () => {
 
                     <h1>REACT<span className="blogo">NASA</span></h1>
                     <p>
-                        Welcome to the most amazing react site where you will experience somthing interesting for example direct picture of the Day from NASA or Search for taken by mars rover or the events on earth.
+                        Welcome to the most amazing react site where you will experience somthing interesting like picture of the Day direct from NASA or Search for images taken by mars rover or the events happening on earth.
                     </p>
 
                 </div>

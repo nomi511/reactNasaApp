@@ -130,9 +130,17 @@ code {
   border: none;
   width: 100px;
   height: 50px;
+  border-radius: 3px;
   background-color: azure;
   color: black;
+  cursor: pointer;
 
+}
+
+.btn:hover
+{
+  background-color: skyblue;
+  color: blue;
 }
 
 .podDesc, .roverDesc, .eventsDesc 
