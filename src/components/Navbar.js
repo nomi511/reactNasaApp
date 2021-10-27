@@ -7,13 +7,13 @@ const Navbar = () => {
             <header className= "navflex" >
 
                 <div className="logo">
-                    <h3>REACT NASA APP</h3>
+                    <h3>REACT<span className="nlogo">NASA</span>APP</h3>
                 </div>
 
-                <div>
+                <div className="links">
 
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">HOME</a></li>
                         <li><a href="./components/Pod">POD</a></li>
                         <li><a href="./components/Rover">ROVER</a></li>
                         <li><a href="./components/Events">EVENTS</a></li>
