@@ -1,6 +1,7 @@
 import earth from "./img/earth.jpeg"
 import rover from "./img/rover.jpeg"
 import event from "./img/event.jpeg"
+import podpic from "./img/pod.jpeg"
 
 import { Link } from "react-router-dom"
 
@@ -38,7 +39,7 @@ const Home = () => {
                     </div>
 
                     <div className="podpic">
-                        <img src={earth} alt="..."/>
+                        <img src={podpic} alt="..."/>
                     </div>
 
                 </div>
