@@ -146,6 +146,11 @@ code {
 
 }
 
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+
 .btn:hover
 {
   background-color: skyblue;

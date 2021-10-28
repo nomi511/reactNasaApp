@@ -2,6 +2,7 @@ import earth from "./img/earth.jpeg"
 import rover from "./img/rover.jpeg"
 import event from "./img/event.jpeg"
 
+import { Link } from "react-router-dom"
 
 
 
@@ -33,7 +34,7 @@ const Home = () => {
                         <p>
                             POD stands for picture of the day. Nasa api provides us everyday a unique picture and everyone can parse that picture usnig NASA api. so click the button below to see that picture
                         </p>
-                        <button className="btn">Click Here</button>
+                        <Link to="/pod"><button className="btn">Click Here</button></Link>
                     </div>
 
                     <div className="podpic">
@@ -56,7 +57,7 @@ const Home = () => {
                         <p>
                             Rover is actually the mars rover that roams around on the surface of the mars and hepls Nasa get the data required about the surface of the mars and it sends pictures as well and we can see that picture by clicking the button below
                         </p>
-                        <button className="btn">Click Here</button>
+                        <Link to="/rover"><button className="btn">Click Here</button></Link>
                     </div>
 
 
@@ -72,7 +73,7 @@ const Home = () => {
                         <p>
                             In the events section we can see the Nasa data about the events for example wild fires and icebergs etc. click the button below to see all the details
                         </p>
-                        <button className="btn">Click Here</button>
+                        <Link to="/events"><button className="btn">Click Here</button></Link>
                     </div>
 
                     <div className="eventpic">
