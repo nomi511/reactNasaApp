@@ -1,10 +1,11 @@
 const Events = () => {
     return ( 
-    <div>
 
-        <h1>events</h1>
+        <div className="events">
+            <h1>Events</h1>
+        </div>
 
-    </div> );
+     );
 }
  
 export default Events;

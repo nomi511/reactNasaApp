@@ -4,7 +4,13 @@ import event from "./img/event.jpeg"
 
 
 
+
 const Home = () => {
+
+
+    
+    
+
     return ( 
         <section>
             
