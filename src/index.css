@@ -182,3 +182,15 @@ img {
 
 
 /*  -------------     footer styles below    -------------- */
+
+
+footer {
+
+  text-align: center;
+  padding-top: 45px;
+  width: 100%;
+  height: 100px;
+  color: azure;
+  background-color: black;
+
+}
