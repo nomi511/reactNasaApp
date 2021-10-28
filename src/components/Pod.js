@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import useFetch from './useFetch'
 
 const Pod = () => {
@@ -15,7 +15,6 @@ const Pod = () => {
             { pending && <div className="loading container"> <h3>Loading...</h3> </div> }
             { data &&  
                 <div className="container imgflex">
-                    {console.log(data)}
 
                     <div className="pic">
                         <img src={data.hdurl} alt="loading..." />
