@@ -211,3 +211,36 @@ footer {
 
 
 
+
+
+/*  -------------     pod styles below    -------------- */
+
+
+.podpage {
+  background-color: rgb(23, 24, 24);
+  color: azure;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.pic {
+  width: 50%;
+}
+
+.details{
+  width: 45%;
+}
+
+
+.error, .loading {
+  text-align: center;
+  margin-left: 43%;
+}
+

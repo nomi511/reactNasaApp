@@ -10,9 +10,11 @@ const useFetch = (url) => {
 
     useEffect( () => {
 
+        const abortfetch = new AbortController()
+
         setTimeout( ()=>{
 
-            fetch(url)
+            fetch(url, {signal: abortfetch.signal})
             .then( response => {
                 if(!response.ok)
                 {
@@ -33,6 +35,8 @@ const useFetch = (url) => {
             })
 
         }, 1000)
+
+       return () => abortfetch.abort()
 
     }, [url])
 
