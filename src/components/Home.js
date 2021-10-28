@@ -1,4 +1,4 @@
-import earth from "./img/earth.jpeg"
+
 import rover from "./img/rover.jpeg"
 import event from "./img/event.jpeg"
 import podpic from "./img/pod.jpeg"

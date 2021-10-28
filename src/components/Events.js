@@ -6,10 +6,6 @@ const Events = () => {
 
     let keys = 0
 
-    if(data)
-    {
-        console.log(data)
-    }
     
 
     return ( 

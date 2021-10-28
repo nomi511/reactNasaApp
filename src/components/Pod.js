@@ -11,25 +11,33 @@ const Pod = () => {
     return ( 
 
         <div className="podpage">
-            { error && <div className="error container"> <h3>{error}</h3> </div>}
-            { pending && <div className="loading container"> <h3>Loading...</h3> </div> }
-            { data &&  
-                <div className="container imgflex">
+            <h1>POD</h1>
+            <div>
 
-                    <div className="pic">
-                        <img src={data.hdurl} alt="loading..." />
+
+                { error && <div className="error container"> <h3>{error}</h3> </div>}
+                { pending && <div className="loading container"> <h3>Loading...</h3> </div> }
+                { data &&  
+                    <div className="container imgflex">
+
+                        <div className="pic">
+                            <img src={data.hdurl} alt="loading..." />
+                        </div>
+
+                        <div className="details">
+
+                            <h1>{data.title}</h1>
+                            <h2>Explanation</h2>
+                            <p>{data.explanation}</p>
+
+                        </div>
+                        
                     </div>
+                }
 
-                    <div className="details">
 
-                        <h1>{data.title}</h1>
-                        <h2>Explanation</h2>
-                        <p>{data.explanation}</p>
-
-                    </div>
-                    
-                </div>
-            }
+            </div>
+            
             
         </div>
 
