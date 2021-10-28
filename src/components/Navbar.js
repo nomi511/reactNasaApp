@@ -7,7 +7,7 @@ const Navbar = () => {
             <header className= "navflex" >
 
                 <div className="logo">
-                    <h3>REACT<span className="nlogo">NASA</span>APP</h3>
+                    <h3><Link to="/">REACT<span className="nlogo">NASA</span>APP</Link></h3>
                 </div>
 
                 <div className="links">

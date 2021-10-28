@@ -34,6 +34,15 @@ code {
   justify-content: space-between;
 }
 
+.logo {
+  cursor: pointer;
+}
+
+.logo h3 a{
+  text-decoration: none;
+  color: azure;
+}
+
 .nlogo
 {
   color: skyblue;
