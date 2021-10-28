@@ -29,7 +29,7 @@ const Rover = () => {
                         <img src={data.photos[random].img_src} alt="loading..." id="imgpic" />
                     </div>
 
-                    <Link to="/rover" className="reloadlink"><button className="btnreload">Reaload</button></Link>
+                    <Link to="/rover" className="reloadlink"><button onClick={() => {window.location.reload()}} className="btnreload">Reload</button></Link>
 
                 </div>
             }
